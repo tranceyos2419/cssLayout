@@ -27,9 +27,13 @@
       flex-basis: 100px;
   -ms-flex-negative: 2;
       flex-shrink: 2;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .container > div:nth-child(3) {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   -ms-flex-negative: 4;
       flex-shrink: 4;
 }
