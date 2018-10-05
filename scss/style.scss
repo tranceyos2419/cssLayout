@@ -7,16 +7,16 @@
     > div{
         height: 100px;
         line-height: 100px;
-        width: 100px;
+        width: 200px;
         background: #ccc;
         margin: 5px;
         text-align: center;
         border: solid 1px red;
         &:nth-child(2){
-            flex-grow: 1;
+            flex-shrink: 2;
         }
         &:nth-child(3){
-            flex-grow: 2;
+            flex-shrink: 4;
         }
     }
 }
