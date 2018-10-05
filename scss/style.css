@@ -23,6 +23,8 @@
 }
 
 .container > div:nth-child(2) {
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
   -ms-flex-negative: 2;
       flex-shrink: 2;
 }

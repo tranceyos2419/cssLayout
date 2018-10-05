@@ -13,6 +13,7 @@
         text-align: center;
         border: solid 1px red;
         &:nth-child(2){
+            flex-basis: 100px;
             flex-shrink: 2;
         }
         &:nth-child(3){
