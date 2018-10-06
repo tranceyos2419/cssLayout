@@ -1,9 +1,10 @@
 .container{
-    border: solid 1px green;
+    // border: solid 1px green;
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: 20% 40% 20% 20%;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    grid-auto-flow: column;
     > div {
         background: #cccccc;;
         text-align: center;
