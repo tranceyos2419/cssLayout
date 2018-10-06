@@ -1,8 +1,12 @@
 .container {
   display: -ms-grid;
   display: grid;
-  grid: 20% 20% 20% 20% / 20% 20%;
-  grid-gap: 10px;
+  -ms-grid-columns: (50px)[4];
+      grid-template-columns: repeat(4, 50px);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .container > div {
