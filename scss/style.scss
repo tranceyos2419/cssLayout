@@ -1,29 +1,14 @@
 .container{
     border: solid 1px green;
     height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
     > div {
-        height: 100px;
-        width: 200px;
+        height: 50px;
+        width: 50px;
         background: #cccccc;
-        margin: 5px;
+        margin: 1px;
         text-align: center;
-        line-height: 100px;
-        &:nth-child(1){
-            order: 1;
-            align-self: flex-end;
-        }
-        &:nth-child(2){
-            flex-basis: 100px;
-            flex-grow: 5;
-        }
-        &:nth-child(4){
-            order: -1;
-            align-self: flex-start;
-        }
+        line-height: 50px;
     }
 }
