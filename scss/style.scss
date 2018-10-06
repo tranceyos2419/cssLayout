@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    align-items: center;
+    align-items: flex-start;
     > div{
         height: 100px;
         line-height: 100px;
@@ -15,10 +15,10 @@
         &:nth-child(2){
             flex-basis: 100px;
             flex-shrink: 2;
-            align-self: flex-end;
+            align-self: center;
         }
         &:nth-child(3){
-            align-self: flex-start;
+            align-self: center;
             flex-shrink: 4;
         }
     }

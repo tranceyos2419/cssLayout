@@ -7,9 +7,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .container > div {
@@ -27,13 +27,15 @@
       flex-basis: 100px;
   -ms-flex-negative: 2;
       flex-shrink: 2;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .container > div:nth-child(3) {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   -ms-flex-negative: 4;
       flex-shrink: 4;
 }
