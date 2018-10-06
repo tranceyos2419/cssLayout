@@ -3,8 +3,10 @@
   height: 100vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 80px 80px 80px 80px;
-      grid-template-columns: 80px 80px 80px 80px;
+  -ms-grid-columns: 80px 80px;
+      grid-template-columns: 80px 80px;
+  -ms-grid-rows: 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px;
 }
 
 .container > div {

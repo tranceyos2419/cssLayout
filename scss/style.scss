@@ -2,7 +2,9 @@
     border: solid 1px green;
     height: 100vh;
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px;
+    // 2 coloumns and 3 rows
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 100px 100px 100px;
     > div {
         height: 50px;
         width: 50px;
