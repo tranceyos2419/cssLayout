@@ -1,19 +1,15 @@
 .container {
   border: solid 1px green;
-  height: 100vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 80px 80px;
-      grid-template-columns: 80px 80px;
-  -ms-grid-rows: 100px 100px 100px;
-      grid-template-rows: 100px 100px 100px;
+  -ms-grid-columns: 50px 50px 50px 50px;
+      grid-template-columns: 50px 50px 50px 50px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .container > div {
-  height: 50px;
-  width: 50px;
   background: #cccccc;
-  margin: 1px;
   text-align: center;
   line-height: 50px;
 }

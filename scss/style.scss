@@ -1,15 +1,11 @@
 .container{
     border: solid 1px green;
-    height: 100vh;
     display: grid;
-    // 2 coloumns and 3 rows
-    grid-template-columns: 80px 80px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     > div {
-        height: 50px;
-        width: 50px;
-        background: #cccccc;
-        margin: 1px;
+        background: #cccccc;;
         text-align: center;
         line-height: 50px;
     }
