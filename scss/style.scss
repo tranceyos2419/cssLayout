@@ -1,11 +1,13 @@
 .container{
     // border: solid 1px green;
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 30% 30%;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid: 20% 20% 20% 20% / 20% 20%;
+    grid-gap: 10px;
+       // grid-auto-flow: column;
+    // grid-template-columns: 20% 20% 20% 20%;
+    // grid-template-rows: 30% 30%;
+    // grid-column-gap: 10px;
+    // grid-row-gap: 10px;
     > div {
         background: #cccccc;;
         text-align: center;

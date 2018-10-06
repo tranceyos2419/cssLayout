@@ -1,13 +1,8 @@
 .container {
   display: -ms-grid;
   display: grid;
-  grid-auto-flow: column;
-  -ms-grid-columns: 20% 20% 20% 20%;
-      grid-template-columns: 20% 20% 20% 20%;
-  -ms-grid-rows: 30% 30%;
-      grid-template-rows: 30% 30%;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid: 20% 20% 20% 20% / 20% 20%;
+  grid-gap: 10px;
 }
 
 .container > div {
